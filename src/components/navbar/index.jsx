@@ -4,6 +4,7 @@ import { IoMdClose } from "react-icons/io";
 import logo from '../../assets/images/ilm_nuri.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import './navbar.css'
+import { Link } from 'react-router-dom';
 
 function NavigationBar() {
     const [show, setShow] = useState(false);
@@ -32,20 +33,25 @@ function NavigationBar() {
                                 </a>
                             </li>
                             <li className="p-5">
-                                <a href="#" className="hover:text-gray-200">
+                                <Link to='/about' className="hover:text-gray-200">
+                                    Loyihamiz haqida
+                                </Link>
+                            </li>
+                            <li className="p-5">
+                                <a href="#services" className="hover:text-gray-200">
                                     Xizmatlar
                                 </a>
                             </li>
                             <li className="p-5">
-                                <a href="#" className="hover:text-gray-200">
+                                <a href="#contact" className="hover:text-gray-200">
                                     Biz bilan boglanish
                                 </a>
                             </li>
                         </ul>
                     </nav>
-                    <button className="hidden md:inline-block border border-white rounded-full font-bold px-8 py-2 hover:bg-white hover:text-[#E29734] transition-colors">
-                       Biz bilan Boglanish
-                    </button>
+                    <a href='#contact' className="hidden md:inline-block cursor-pointer border border-white rounded-full font-bold px-8 py-2 hover:bg-white hover:text-[#E29734] transition-colors">
+                        Biz bilan Boglanish
+                    </a>
                 </div>
             </header>
         </>

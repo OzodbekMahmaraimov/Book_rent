@@ -1,14 +1,10 @@
-import {Home, About, Contact, Footer } from "./page"
+import Routeses from "./routes";
 
 const App = () => {
   return (
-    <div>
-      dsfkjshk
-      <Home />
-      <About />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+     <Routeses /> 
+    </>
   )
 }
 
