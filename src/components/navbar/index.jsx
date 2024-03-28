@@ -5,6 +5,7 @@ import logo from '../../assets/images/ilm_nuri.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import './navbar.css'
 import { Link } from 'react-router-dom';
+import data from '../../../public/data/db.json'
 
 function NavigationBar() {
     const [show, setShow] = useState(false);
@@ -17,7 +18,7 @@ function NavigationBar() {
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-24">
                     <a href="#" className="flex items-center justify-center">
                         <LazyLoadImage effect='blur' className='h-16 rounded-full' src={logo} alt='this is logo' />
-                        <span className="ml-4 uppercase font-black">Ilm<br />Nuri</span>
+                        <span className="ml-4 uppercase font-black">{data.navbar.title}</span>
                     </a>
                     <div className="md:hidden">
                         <button onClick={toggleNavbar} className="text-white focus:outline-none">

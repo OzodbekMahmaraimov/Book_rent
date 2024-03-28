@@ -3,3 +3,8 @@ export { default as Services } from "./services/index";
 export { default as Footer } from "./footer/index";
 export { default as Contact } from "./contact/index";
 export { default as AboutUs } from "./about/index";
+export { default as Admin } from "./admin/index";
+export { default as AboutAdmin } from "./aboutAdmin/index";
+export { default as ContactAdmin } from "./contactAdmin";
+export { default as ServicesAdmin } from "./servicesAdmin/index";
+export { default as HomeAdmin } from "./homeAdmin/index";

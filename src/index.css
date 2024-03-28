@@ -10,6 +10,17 @@
     min-height: 100vh;
 }
 
+.admin-container {
+    width: 70%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
 .font-lexend {
     font-family: "Lexend", sans-serif;
+}
+
+.text-gradient {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
