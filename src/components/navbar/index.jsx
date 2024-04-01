@@ -51,6 +51,11 @@ function NavigationBar() {
                                     Biz bilan boglanish
                                 </a>
                             </li>
+                            <li className="p-5">
+                                <Link to='/admin/home' className="hover:text-gray-200">
+                                    admin
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                     <a href='#contact' className="hidden md:inline-block cursor-pointer border border-white rounded-full font-bold px-8 py-2 hover:bg-white hover:text-[#E29734] transition-colors">
