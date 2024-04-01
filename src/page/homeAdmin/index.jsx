@@ -14,7 +14,7 @@ const HomeAdmin = () => {
         <Sidebar />
         <div className="admin-container flex flex-col">
           <h1 className="text-4xl pt-10">Home</h1>
-          <div className="pt-10 flex gap-3 justify-between items-center">
+          <div className="pt-10 flex gap-3 justify-between items-center flex-col md:flex-row">
             <h1 className="text-3xl font-semibold ">Navbar Title:</h1>
             <h1 className="text-3xl font-mono font-semibold">"{data.navbar.title}"</h1>
             <Button onClick={openTitle} />
