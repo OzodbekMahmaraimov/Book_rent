@@ -3,6 +3,7 @@ import data from '../../../public/data/db'
 import './index.css'
 import AOS from 'aos';
 import Footer from '../footer';
+import NavigationBar from '../../components/navbar';
 
 const AboutUs = () => {
   const [json, setJson] = useState([]);
@@ -14,7 +15,8 @@ const AboutUs = () => {
 
   return (
     <>
-      <section className="w-full">
+    <NavigationBar />
+      <section className="w-full mt-20">
         <div className="w-full h-[15rem] about-bg flex justify-center items-center">
           <h1 className='text-7xl text-white font-semibold'>About Us</h1>
         </div>
