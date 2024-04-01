@@ -1,5 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import data from '../../../public/data/db.json';
+import data from '../../../public/data/db';
 import { useEffect, useState, StrictMode } from "react";
 
 const Services = () => {

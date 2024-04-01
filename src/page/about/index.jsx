@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import data from '../../../public/data/db.json'
+import data from '../../../public/data/db'
 import './index.css'
 import AOS from 'aos';
 import Footer from '../footer';

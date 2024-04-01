@@ -1,5 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import data from '../../../public/data/db.json';
+import data from '../../../public/data/db';
 
 const Contact = () => {
 
@@ -11,7 +11,9 @@ const Contact = () => {
           className="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
           <div className="flex flex-col justify-between">
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">{data.contact.heading}</h2>
+              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
+              {data.contact.heading}
+              </h2>
               <div className="text-gray-700 mt-8">
                 {data.contact.paragraph}
               </div>
