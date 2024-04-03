@@ -23,7 +23,7 @@ const AboutUs = () => {
         <div data-aos="zoom-in" className='about-section w-full'>
           <div className="row1-container">
             {json.map((item, idx) => (
-              <div key={idx} className={`box cursor-pointer duration-300 hover:scale-105 ${item.className}`}>
+              <div key={idx} className={`box cursor-pointer duration-300 hover:scale-105 flex-row`}>
                 <h2>{item.heading}</h2>
                 <p>{item.paragraph}</p>
                 <img src={item.img} alt={item.heading} />
