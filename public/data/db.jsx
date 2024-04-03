@@ -14,7 +14,7 @@ const data = {
             title: "JOIN, IT'S FREE",
             heading: "We're not reinventing the wheel",
             paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.",
-            className: "flex-row"
+            turi: false
         },
         {
             id: 2,
@@ -22,7 +22,7 @@ const data = {
             title: "JOIN, IT'S FREE",
             heading: "We're not reinventing the wheel",
             paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.",
-            className: "flex-row-reverse"
+            turi: true
         }
     ],
     contact: {

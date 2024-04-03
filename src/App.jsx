@@ -3,19 +3,19 @@ import Routeses from './routes';
 import Loading from './components/loading';
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 3000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   return (
     <>
-      {isLoading && <Loading />}
+      {/* {isLoading && <Loading />} */}
       <Routeses />
     </>
   );

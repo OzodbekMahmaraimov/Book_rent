@@ -9,7 +9,6 @@ const Routeses = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<AboutUs />} />
                 <Route path="/admin" element={<Admin />} />
-                
                 <Route path='/admin/home' element={<HomeAdmin />} />
             </Routes>
         </>
